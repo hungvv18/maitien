@@ -1,0 +1,54 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="canvas.css" />
+    <link rel="stylesheet" href="present.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="card.css" />
+  </head>
+  <body>
+    <div class="parent">
+      <!-- Nền Hòa -->
+      <canvas id="canvas"></canvas>
+
+      <!-- Hộp Quà -->
+      <section class="above-fold">
+        <div class="wrap-present">
+          <div class="present-box" id="present">
+            <div class="present">
+              <div class="img-wrap" id="present-image"></div>
+            </div>
+            <div class="side front"></div>
+            <div class="side back"></div>
+            <div class="side left"></div>
+            <div class="side right"></div>
+            <div class="side top">
+              <span class="to">
+                <span class="name" id="nametag"> </span>
+              </span>
+            </div>
+            <div class="side bottom"></div>
+          </div>
+        </div>
+        <p class="info-text">Click to Open</p>
+      </section>
+      <!-- Thiệp -->
+      <div id="card">
+        <h4>💘little coder💘</h4>
+
+        <img class="honey" src="./maitien.jpg" />
+
+        <h4>
+          Happy Birthday Mai Tiên. Chúc mứng sinh nhật Mai Tiên của anh nha!.
+          Chúc mai tiên đón tuổi 23 ngày càng xinh đẹp hơn, thành công hơn và có
+          thật nhiều sức khỏe để yêu thương anh hơn, ít dỗi hơn và cùng nhau đón
+          sinh nhật nhiều năm sau nữa nha. Yêu thương mai tiên nhiều lắm 💘
+        </h4>
+      </div>
+    </div>
+    <script src="canvas.js"></script>
+    <script src="present.js"></script>
+  </body>
+</html>
